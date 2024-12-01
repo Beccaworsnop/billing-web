@@ -1,4 +1,4 @@
-"use client";  // Add this line at the very top
+"use client";  
 
 import { useState } from "react";
 import styles from './globals.css'; 
