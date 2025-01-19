@@ -1,3 +1,4 @@
+import styles from "../consult/consult.modules.css"
 import Sidebar from "../components/sidebar"
 import PaymentHistory from "../components/paymentHistory"
 import BillingDetails from "../components/BillingDetails"
@@ -8,9 +9,8 @@ export default function Consult() {
   <Sidebar></Sidebar>
   <main>
     <BillingDetails></BillingDetails>
-    <PaymentHistory></PaymentHistory>
-    <dashboardcomponent></dashboardcomponent>
-    
+    <PaymentHistory></PaymentHistory>   
+    <dashboardcomponent></dashboardcomponent> 
   </main>
     </div>
   )

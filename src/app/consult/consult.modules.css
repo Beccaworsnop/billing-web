@@ -1,0 +1,83 @@
+body {
+    background-color: aquamarine;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    margin: 0;            /* Remove margins */
+    padding: 0;           /* Remove padding */
+    width: 150px;         /* Set the width of the sidebar */
+    background-color: #333; /* Background color of the sidebar */
+    height: 100vh;        /* Make it full height */
+    position: fixed;      /* Fix it on the side of the screen */
+    top: 0;               /* Align it to the top */
+    left: 0;              /* Align it to the left */
+    overflow: auto;       /* Add scroll if needed */
+  }
+  
+  li {
+    float: none; /* Remove float to stack items vertically */
+  }
+  
+  li a {
+    display: block;          /* Make the links block elements */
+    color: white;            /* Link color */
+    text-align: left;        /* Align text to the left */
+    padding: 14px 16px;      /* Add padding */
+    text-decoration: none;   /* Remove underline */
+  }
+  
+  li a:hover {
+    background-color: #111; /* Background color on hover */
+  }
+  
+  h1{
+    color: rgb(15, 15, 14);
+    margin-left: 150px;
+  }
+
+  table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Remove double borders */
+    margin-left: 150px;
+    font-size: 16px; /* Adjust font size */
+    text-align: left; /* Align text to the left */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Add border around cells */
+    padding: 12px 15px; /* Add padding inside cells */
+  }
+  
+  th {
+    background-color: #333; /* Header background color */
+    color: white; /* Header text color */
+    text-transform: uppercase; /* Make header text uppercase */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Add a light background to even rows */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #ddd; /* Add border below each row */
+  }
+  
+  td {
+    color: #555; /* Text color for table cells */
+  }
+
+  img {
+    width: 300px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: relative; /* Use relative positioning */
+    margin: 0px 0 20px 150px; /* Space it from the sidebar */
+    display: block; /* Ensures it doesn't overlap other elements */
+  }
+  
+  

@@ -7,7 +7,7 @@ export default function Sidebar () {
         <li><a href="#">Bookings</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Notifications</a></li>
-        <li><a href="#">settings</a></li>
+        <li><a href="/">settings</a></li>
       </ul>
       </nav>
       </div>
