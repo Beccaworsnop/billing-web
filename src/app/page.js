@@ -42,7 +42,7 @@ export default function LoginPage() {
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
           <button type="submit">Sign Up</button>
-        </form>
+        </form> 
       </div>
 
       
