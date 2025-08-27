@@ -56,7 +56,6 @@ export default function HistoryPage() {
           </div>
         </div>
 
-        {/* Transactions Table */}
         <div className="bg-card/10 backdrop-blur-sm rounded-lg border border-border/20 overflow-hidden">
           <div className="p-6 border-b border-border/20">
             <h2 className="text-xl font-semibold text-card-foreground">All Transactions</h2>

@@ -1,4 +1,5 @@
 export default function HowItWorksSection() {
+  
   return (
     <section className="px-6 py-20">
       <div className="max-w-4xl mx-auto text-center">

@@ -1,5 +1,6 @@
 import DashboardLayout from "../../../../components/dash-layout"
 export default function ActivityLogPage() {
+  
   const activities = [
     {
       id: 1,

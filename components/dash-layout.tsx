@@ -6,6 +6,7 @@ interface DashboardLayoutProps {
 }
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
+  
   return (
     <div className="min-h-screen flex bg-background">
       <DashboardSidebar />

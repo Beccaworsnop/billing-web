@@ -118,6 +118,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+  
   body {
     /* Beautiful gradient background from dark gray to teal */
     background: linear-gradient(180deg, #1c1c1c 0%, #004d4d 100%);

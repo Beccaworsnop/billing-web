@@ -1,5 +1,6 @@
 import DashboardLayout from "../../../../components/dash-layout"
 export default function AddPaymentPage() {
+  
   return (
     <DashboardLayout>
       <div className="space-y-8">

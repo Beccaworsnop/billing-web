@@ -9,6 +9,7 @@ export default function Footer() {
             <div className="text-2xl font-bold text-white mb-4">PayBridge</div>
             <p className="text-white/70">Secure third-party billing solution for universal payments.</p>
           </div>
+          
           <div>
             <h4 className="text-white font-semibold mb-4">Product</h4>
             <ul className="space-y-2 text-white/70">

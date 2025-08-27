@@ -139,7 +139,6 @@ export default function DashboardSidebar() {
 
   return (
     <div className="w-64 bg-sidebar border-r border-sidebar-border flex flex-col">
-      {/* Logo */}
       <div className="p-6 border-b border-sidebar-border">
         <Link href="/" className="text-2xl font-bold text-sidebar-foreground">
           PayBridge

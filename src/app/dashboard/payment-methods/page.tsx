@@ -2,6 +2,7 @@ import DashboardLayout from "../../../../components/dash-layout"
 import Link from "next/link"
 
 export default function PaymentMethodsPage() {
+  
   const paymentMethods = [
     {
       id: 1,

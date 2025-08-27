@@ -1,6 +1,7 @@
 import Link from "next/link"
 
 export default function HeroSection() {
+  
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-20 md:py-32">
       <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 max-w-4xl leading-tight">

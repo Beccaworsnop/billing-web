@@ -1,6 +1,7 @@
 import DashboardLayout from "../../../../components/dash-layout"
 
 export default function AccountSettingsPage() {
+  
   return (
     <DashboardLayout>
       <div className="space-y-8">
